@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "name": "Ben Stokes",
+      "country": "England",
+      "image": "https://i.ibb.co.com/Y4GkjZH1/Ben-Stokes.webp",
+      "role": "All-rounder",
+      "type": "Allrounder",
+      "bidding_price": "16.25 Cr",
+      "batting_type": "Left-hand Bat",
+      "bowling_type": "Right-arm Fast-Medium"
+    },
+    {
+      "id": 2,
+      "name": "David Warner",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/VWxMZrmj/David-Warner.webp",
+      "role": "Batsman",
+      "type": "Batsman",
+      "bidding_price": "6.25 Cr",
+      "batting_type": "Left-hand Bat",
+      "bowling_type": "Right-arm Leg Break"
+    },
+    {
+      "id": 3,
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "image": "https://i.ibb.co.com/4RCb2WmC/Rashid-Khan.webp",
+      "role": "Bowler",
+      "type": "Bowler",
+      "bidding_price": "15 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Leg Break"
+    },
+    {
+      "id": 4,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/RnNQZhy/Kane-Williamson.webp",
+      "role": "Batsman",
+      "type": "Batsman",
+      "bidding_price": "2 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Off Break"
+    },
+    {
+      "id": 5,
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/Jj9zFytS/Pat-Cummins.webp",
+      "role": "Bowler",
+      "type": "Bowler",
+      "bidding_price": "18.5 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Fast"
+    },
+    {
+      "id": 6,
+      "name": "Andre Russell",
+      "country": "West Indies",
+      "image": "https://i.ibb.co.com/bjBTZRhZ/Andre-Russell.webp",
+      "role": "All-rounder",
+      "type": "Allrounder",
+      "bidding_price": "12 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Fast-Medium"
+    },
+    {
+      "id": 7,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/hFLR5dCF/Steve-Smith.webp",
+      "role": "Batsman",
+      "type": "Batsman",
+      "bidding_price": "8.5 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Leg Break"
+    },
+    {
+      "id": 8,
+      "name": "Jos Buttler",
+      "country": "England",
+      "image": "https://i.ibb.co.com/jvq4Y9yG/Jos-Buttler2.webp",
+      "role": "Wicketkeeper Batsman",
+      "type": "Batsman",
+      "bidding_price": "10 Cr",
+      "batting_type": "Right-hand Bat"
+    },
+    {
+      "id": 9,
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/V0159rKv/Trent-Boult2.webp",
+      "role": "Bowler",
+      "type": "Bowler",
+      "bidding_price": "8 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Left-arm Fast-Medium"
+    },
+    {
+      "id": 10,
+      "name": "Faf du Plessis",
+      "country": "South Africa",
+      "image": "https://i.ibb.co.com/HjvGhnz/Faf-du-Plessis.webp",
+      "role": "Batsman",
+      "type": "Batsman",
+      "bidding_price": "7 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Leg Break"
+    },
+    {
+      "id": 11,
+      "name": "Quinton de Kock",
+      "country": "South Africa",
+      "image": "https://i.ibb.co.com/JFQF7npK/Quinton-de-Kock2.webp",
+      "role": "Wicketkeeper Batsman",
+      "type": "Batsman",
+      "bidding_price": "6.75 Cr",
+      "batting_type": "Left-hand Bat"
+    },
+    {
+      "id": 12,
+      "name": "Jofra Archer",
+      "country": "England",
+      "image": "https://i.ibb.co.com/Y43Ypn60/Jofra-Archer.webp",
+      "role": "Bowler",
+      "type": "Bowler",
+      "bidding_price": "7.2 Cr",
+      "batting_type": "Right-hand Bat",
+      "bowling_type": "Right-arm Fast"
+    }
+  ]

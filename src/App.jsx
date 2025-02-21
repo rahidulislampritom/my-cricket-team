@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './component/Header/Header'
 import Buttons from './component/Buttons/Buttons';
@@ -18,7 +18,7 @@ function App() {
   const [activeBtn, setActiveBtn] = useState({
     status: true,
     component: "available"
-  })
+  });
 
   const handleAvailableBtn = (status) => {
     if (status == "available") {
@@ -34,9 +34,22 @@ function App() {
 
     }
   }
-
-
   //  available and selected  buttons ends here
+  
+
+  // data load and store from bestCricketPlayer.JSON start here 
+  const [availablePlayers, setAvailablePlayers] = useState([]);
+  
+  useEffect(()=>{
+    fetch('bestCricketPlayer.JSON')
+    .then(res => res.json())
+    .then(data => setAvailablePlayers(data))
+  },[])
+  
+
+
+  
+  // data load and store from bestCricketPlayer.JSON end here 
 
 
 
@@ -55,8 +68,8 @@ function App() {
       {/* available and selected  buttons start here */}
 
       <div className='md:max-w-7xl mx-auto px-3'>
-        <div className='text-right'>
-          <Buttons handleAvailableBtn={handleAvailableBtn} activeBtn={activeBtn} ></Buttons>
+        <div>
+          <Buttons handleAvailableBtn={handleAvailableBtn} activeBtn={activeBtn} availablePlayers = {availablePlayers}></Buttons>
         </div>
       </div>
 
