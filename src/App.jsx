@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './component/Header/Header'
 import Buttons from './component/Buttons/Buttons';
+import Footer from './component/Footer/Footer';
 
 
 function App() {
@@ -114,6 +115,14 @@ function App() {
       </div>
 
       {/* available and selected  buttons ends here */}
+
+
+
+      {/* footer start */}
+      <div className='max-w-full  mx-auto bg-black '>
+        <Footer></Footer>
+      </div>
+      {/* footer end */}
 
     </div>
   )
