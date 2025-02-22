@@ -5,7 +5,7 @@ import { FaUser } from "react-icons/fa";
 const AvailablePlayer = ({ availablePlayer, handleChoosePlayer }) => {
     // console.log(availablePlayer);
 
-    const {id, name, country, image, batting_type, bidding_price, bowling_type, type } = availablePlayer;
+    const { id, name, country, image, batting_type, bidding_price, bowling_type, type } = availablePlayer;
 
     return (
         <div>
@@ -34,7 +34,7 @@ const AvailablePlayer = ({ availablePlayer, handleChoosePlayer }) => {
                     </h2>
                     <h2 className="flex items-center justify-between">
                         <p><span className="text-[#131313] text-base font-bold">Price: </span>{bidding_price}</p>
-                        <button onClick={() => handleChoosePlayer(id)} className="text-[#131313] text-sm border border-[#1313131A] rounded-lg px-4 py-2">Choose Player</button>
+                        <button onClick={() => handleChoosePlayer(id)} className="text-[#131313] text-sm border border-[#1313131A] rounded-lg px-4 py-2 cursor-pointer">Choose Player</button>
                     </h2>
                 </div>
 

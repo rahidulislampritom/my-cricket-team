@@ -45,7 +45,7 @@ const Header = ({ handleFreeCredit, freeCredit }) => {
                         <h2 className="text-[#FFFFFF] text-xl  md:text-4xl  font-bold text-center">Assemble Your Ultimate Dream 11 Cricket Team</h2>
                         <h6 className="text-[#FFFFFFB3] text-sm md:text-2xl font-medium text-center">Beyond Boundaries Beyond Limits</h6>
                         <div className="border-[1px] border-solid border-[#e7fe29] p-2 rounded-[16px] ">
-                            <button onClick={() => handleFreeCredit()} className="text-[#131313] text-base font-bold bg-[#E7FE29] px-5 py-3.5 rounded-xl ">Claim Free Credit</button>
+                            <button onClick={() => handleFreeCredit()} className="text-[#131313] text-base font-bold bg-[#E7FE29] px-5 py-3.5 rounded-xl cursor-pointer">Claim Free Credit</button>
                         </div>
 
                     </div>

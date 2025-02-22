@@ -15,6 +15,7 @@ function App() {
   // claim free credit ends here
 
 
+
   //  available and selected  buttons start here
   const [activeBtn, setActiveBtn] = useState({
     status: true,
@@ -38,9 +39,22 @@ function App() {
   //  available and selected  buttons ends here
 
 
+
+  // handle Add More Player start here
+  const handleAddMorePlayer = (status) => {
+    if (status == "available") {
+      setActiveBtn({
+        status: true,
+        component: "available"
+      })
+    }
+  }
+  // handle AddMore Player end here
+
+
+
   // data load and store from bestCricketPlayer.JSON start here 
   const [availablePlayers, setAvailablePlayers] = useState([]);
-
 
   useEffect(() => {
     fetch('bestCricketPlayer.JSON')
@@ -50,7 +64,8 @@ function App() {
   // data load and store from bestCricketPlayer.JSON end here 
 
 
-  // handle ChoosePlayer  button start here 
+
+  // handle ChoosePlayer  button and validations start here 
   const [choosePlayer, setChoosePlayer] = useState([])
 
   const handleChoosePlayer = (idx) => {
@@ -59,14 +74,16 @@ function App() {
       alert("STOP SELECTING");
       return
     }
-    if(choosePlayer.find(player=>player.id==idx)){
+    if (choosePlayer.find(player => player.id == idx)) {
       alert('Player Already Selected')
       return;
     }
     setChoosePlayer([...choosePlayer, selectedPlayer])
 
   }
-  // handle ChoosePlayer  button end here 
+  //  handle ChoosePlayer  button and validations end here 
+
+
 
   // handleChoosePlayer start
   const handleRemovePlayer = (id) => {
@@ -92,7 +109,7 @@ function App() {
 
       <div className='md:max-w-7xl mx-auto px-3'>
         <div>
-          <Buttons handleAvailableBtn={handleAvailableBtn} activeBtn={activeBtn} availablePlayers={availablePlayers} handleChoosePlayer={handleChoosePlayer} choosePlayer={choosePlayer} handleRemovePlayer={handleRemovePlayer} ></Buttons>
+          <Buttons handleAvailableBtn={handleAvailableBtn} activeBtn={activeBtn} availablePlayers={availablePlayers} handleChoosePlayer={handleChoosePlayer} choosePlayer={choosePlayer} handleRemovePlayer={handleRemovePlayer} handleAddMorePlayer={handleAddMorePlayer} ></Buttons>
         </div>
       </div>
 
